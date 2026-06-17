@@ -11,8 +11,8 @@ import java.sql.SQLException;
 public class DatabaseConnection {
 
     private static final String URL      = "jdbc:mysql://localhost:3306/student_result_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
-    private static final String USERNAME = "javauser";
-    private static final String PASSWORD = "java123"; // change this
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "your_password"; // change this
 
     private static Connection connection = null;
 
